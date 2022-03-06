@@ -1,0 +1,3 @@
+public-test:
+  gateway-gate: localhost:8099
+  mall-gate: localhost:8099

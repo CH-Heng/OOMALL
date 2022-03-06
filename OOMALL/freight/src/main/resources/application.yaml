@@ -1,0 +1,78 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8086
+  tomcat:
+    threads:
+      max: 500
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: freight-service
+  servlet:
+    multipart:
+      enabled: true
+      max-request-size: 10MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://119.3.253.204:3306/oomall?serverTimezone=GMT%2B8&useSSL=false
+    username: dbuser
+    password: 12345678
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 3
+      min-idle: 3
+      max-active: 10
+      max-wait: 60000
+
+      stat-view-servlet:
+        login-username: admin
+        login-password: 123456
+        enabled: true
+        url-pattern: /druid/*
+
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 100
+      validation-query: select 1
+
+  redis:
+    database: 0
+    host: 124.71.31.61
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 100
+        min-idle: 0
+        max-wait: -1
+    timeout: 5000
+
+mybatis:
+  type-aliases-package: cn.edu.xmu.oomall.freight.model.po
+  mapper-locations: classpath*:cn.edu.xmu.oomall.freight.mapper/*.xml
+  configuration:
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql
+
+oomall:
+  freight:
+    region:
+      expiretime: 10000
+    model:
+      expiretime: 10000

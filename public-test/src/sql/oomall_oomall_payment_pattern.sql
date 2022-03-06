@@ -1,0 +1,2 @@
+INSERT INTO oomall_payment_pattern (id, name, state, begin_time, end_time, class_name, creator_id, creator_name, modifier_id, modifier_name, gmt_create, gmt_modified) VALUES (0, 'alipay', null, null, null, 'alipay', null, null, null, null, '2021-12-25 23:03:08', null);
+INSERT INTO oomall_payment_pattern (id, name, state, begin_time, end_time, class_name, creator_id, creator_name, modifier_id, modifier_name, gmt_create, gmt_modified) VALUES (1, 'wechatpay', null, null, null, 'wechatpay', null, null, null, null, '2021-12-25 23:04:44', null);

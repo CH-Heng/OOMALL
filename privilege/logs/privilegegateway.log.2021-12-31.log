@@ -1,0 +1,1238 @@
+2021-12-31 14:44:32.930 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-31 14:44:32.946 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Starting GatewayApplication using Java 16.0.1 on DESKTOP-5EP6SGE with PID 3216 (E:\3-7&3-8\3-7&3-8\privilege\gateway\target\classes started by DELL in E:\3-7&3-8\3-7&3-8\privilege)
+2021-12-31 14:44:32.946 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - No active profile set, falling back to default profiles: default
+2021-12-31 14:44:33.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-31 14:44:33.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-31 14:44:33.943 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-12-31 14:44:34.171 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a3309627-7307-3341-a3fe-067604e1f302
+2021-12-31 14:44:34.271 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 14:44:34.271 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 14:44:34.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2021-12-31 14:44:36.280 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-12-31 14:44:37.770 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-31 14:44:38.124 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8099
+2021-12-31 14:44:39.202 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP privilege-gateway 192.168.234.1:8099 register finished
+2021-12-31 14:44:39.238 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Started GatewayApplication in 7.489 seconds (JVM running for 9.777)
+2021-12-31 14:46:05.863 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:06.903 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:07.941 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:09.021 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:10.066 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:11.105 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:12.145 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:13.184 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:14.224 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:15.269 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:16.312 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:17.351 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:18.386 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:18.479 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:19.423 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:19.515 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:20.499 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:20.537 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:21.683 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:46:21.683 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 14:46:21.683 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 14:46:21.727 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNDQ2MTU2T1dBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5MzY3NzUsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTMzMTc1fQ.tl5KiePBaFooQiaYUuEaYg4mbR0P0B6m3iuVGv2tnZw, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 14:46:21.727 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:46:21.763 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:46:25.198 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:46:25.199 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 14:46:25.199 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 14:46:25.237 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNDQ2MjIyTk5BIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5MzY3ODIsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTMzMTgyfQ.SR1203lhkhtXYywpg_L85tIa0adl8Ysaw4bYzCdlXmI, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 14:46:25.237 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:46:25.273 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:53:23.494 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:53:23.496 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 14:53:23.497 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 14:53:23.540 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNDUzMjA0M0lBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5MzcyMDAsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTMzNjAwfQ.LwJa_jrXo0aYvdzfovGKY1pu_Ok7Nerzu1aSBm5Vf40, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 14:53:23.541 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:53:23.577 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:55:26.506 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:55:26.506 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 14:55:26.506 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 14:55:26.537 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNDU1MjMyVDVBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5MzczMjMsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTMzNzIzfQ.do5bvQIaJ4BwDym4KHKIj56T5d8cDOFeKBhym4J8yyI, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 14:55:26.553 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:55:26.591 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 14:57:21.164 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:57:21.165 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 14:57:21.165 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 14:57:21.202 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNDU3MTgxTVRBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5Mzc0MzgsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTMzODM4fQ.74fwkbdrb178wGOvOtMzQw3gd2V9AKzOcOTpFnBPS4o, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNDU2NTU3QUNBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5Mzc0MTUsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTMzODE1fQ.oqcR31-kxrAtgdmN-wdzupvPkmFKnK2js-7cH5VKGT8, 60, 75, 106, 105, 14, 189, 146, 108]
+2021-12-31 14:57:21.202 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 14:57:21.237 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:01:08.050 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:01:08.051 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 15:01:08.051 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 15:01:08.093 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNTAxMDUwMVpBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5Mzc2NjUsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTM0MDY1fQ.dBmXzQnH-ngeLRI8yGfllueKkk2OBARBKtKCKbEZYDw, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 15:01:08.094 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:01:08.131 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:02:54.950 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:02:54.951 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 15:02:54.951 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 15:02:54.987 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNTAyNTE5UlhBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5Mzc3NzEsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTM0MTcxfQ.wJ6KAeZTs6OYUjQilGXhdz2WzhK0nySDqhj7C9xt0rU, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 15:02:54.987 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:02:55.022 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:04:25.070 [boundedElastic-6] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 15:23:55.154 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:23:56.203 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:23:57.239 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:23:58.274 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:23:59.308 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:00.347 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:01.383 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:02.419 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:03.455 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:04.490 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:05.525 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:06.553 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:07.601 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:08.637 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:24:09.709 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:16.805 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:17.846 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:18.889 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:19.933 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:21.242 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:22.279 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:23.314 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:24.360 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:25.397 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:26.434 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:27.469 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:28.516 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:29.555 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:30.596 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:33:31.668 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:40:10.904 [boundedElastic-15] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 15:42:48.196 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:49.230 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:50.268 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:50.923 [reactor-http-nio-3] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:51.303 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:52.346 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:53.384 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:54.421 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:55.539 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:56.577 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:57.612 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:58.650 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:42:59.687 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:00.726 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:01.762 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:02.905 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:03.942 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:04.980 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:06.020 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:07.059 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:08.095 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:09.122 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:10.172 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:11.209 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:12.245 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:13.281 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:14.318 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:15.355 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:16.393 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:17.464 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:19.450 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:19.595 [reactor-http-nio-1] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:20.500 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:21.537 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:22.584 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:23.635 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:24.670 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:25.708 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:26.744 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:27.782 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:28.819 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:29.857 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:30.895 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:31.932 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:32.989 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:34.136 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:35.171 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:36.208 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:37.245 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:38.282 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:39.318 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:40.353 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:41.387 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:42.426 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:43.469 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:44.513 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:45.550 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:46.588 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:47.625 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:48.700 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:49.047 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:49.175 [reactor-http-nio-5] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:50.081 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:51.119 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:52.155 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:53.194 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:54.231 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:55.268 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:56.304 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:57.342 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:58.378 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:43:59.414 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:00.438 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:01.489 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:02.527 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:03.675 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:04.711 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:05.747 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:06.784 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:07.819 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:08.853 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:09.898 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:10.935 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:11.970 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:13.014 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:13.221 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:13.351 [reactor-http-nio-8] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:14.051 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:14.259 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:15.089 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:15.296 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:16.125 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:16.332 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:17.161 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:17.370 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:18.234 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:18.408 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:19.444 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:20.480 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:21.518 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:22.554 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:23.589 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:24.624 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:25.662 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:26.760 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:27.933 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:28.969 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:30.016 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:31.038 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:32.086 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:33.120 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:33.328 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:33.444 [reactor-http-nio-6] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:34.156 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:34.366 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:35.194 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:35.402 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:36.229 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:36.438 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:37.264 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:37.473 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:38.302 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:38.510 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:39.337 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:39.539 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:40.381 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:40.587 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:41.421 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:41.627 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:42.492 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:42.672 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:43.708 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:44.745 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:45.780 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:46.821 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:47.965 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:49.014 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:50.037 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:51.087 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:52.125 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:53.159 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:54.195 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:55.234 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:56.269 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:57.314 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:58.351 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:44:59.388 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:45:00.423 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:45:01.458 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:45:02.528 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:17.211 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:18.246 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:19.285 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:20.321 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:21.358 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:22.394 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:23.430 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:24.466 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:25.502 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:26.547 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:27.487 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:27.919 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:28.525 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:28.955 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:29.560 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:29.989 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:30.596 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:31.025 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:31.631 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:32.166 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:32.655 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:33.202 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:33.704 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:34.245 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:34.740 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:35.279 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:35.781 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:36.316 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:36.816 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:37.353 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:37.850 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:38.390 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:38.887 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:39.427 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:39.922 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:40.461 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:40.958 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:41.497 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:42.096 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:42.534 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:43.141 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:43.569 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:44.183 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:44.608 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:45.223 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:45.644 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:46.264 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:46.714 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:47.096 [reactor-http-nio-8] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:47.301 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:48.337 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:49.372 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:50.409 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:51.447 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:52.482 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:53.517 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:54.554 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:55.591 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:56.659 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:47:56.860 [reactor-http-nio-1] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:48:32.251 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:48:32.251 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 15:48:32.251 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 15:48:32.287 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNTQ4MjkzNDdBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NDA1MDksInVzZXJJZCI6MSwiaWF0IjoxNjQwOTM2OTA5fQ.xPg0R9QkxioGkEf6rymjlirfMm0AJnGGYhzhbgpjfeI, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 15:48:32.287 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:48:32.321 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:48:35.586 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:48:35.586 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 15:48:35.586 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 15:48:35.623 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNTQ4MzI3Q1ZBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NDA1MTIsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTM2OTEyfQ.AlrApieA5skCw1AJhQpZTX17IsfNZ10vqI9JotQCS0w, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 15:48:35.623 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:48:35.662 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 15:48:38.868 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:48:38.868 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 15:48:38.868 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 15:48:38.900 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExNTQ4MzYwUUlBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NDA1MTYsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTM2OTE2fQ.9yiwCUO_OWY0vnRcQAt5guT3ZJp06odIxGEeUCyxW7Q, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 15:48:38.900 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 15:48:38.937 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:05:54.306 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2021-12-31 16:05:54.308 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2021-12-31 16:05:54.309 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2021-12-31 16:05:54.315 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2021-12-31 16:05:54.460 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 16:05:54.462 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 16:05:54.522 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 16:05:54.522 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 16:05:54.526 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-12-31 16:05:54.542 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-12-31 16:06:02.745 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2021-12-31 16:06:18.082 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-31 16:06:18.106 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Starting GatewayApplication using Java 16.0.1 on DESKTOP-5EP6SGE with PID 17292 (E:\3-7&3-8\3-7&3-8\privilege\gateway\target\classes started by DELL in E:\3-7&3-8\3-7&3-8\privilege)
+2021-12-31 16:06:18.109 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - No active profile set, falling back to default profiles: default
+2021-12-31 16:06:19.760 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-31 16:06:19.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-31 16:06:19.806 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-12-31 16:06:20.166 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a3309627-7307-3341-a3fe-067604e1f302
+2021-12-31 16:06:20.344 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:06:20.346 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:06:20.355 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2021-12-31 16:06:24.849 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2021-12-31 16:06:24.850 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2021-12-31 16:06:24.850 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2021-12-31 16:06:24.850 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2021-12-31 16:06:24.850 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2021-12-31 16:06:24.850 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2021-12-31 16:06:24.850 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-12-31 16:06:25.062 [main] ERROR com.alibaba.cloud.nacos.NacosConfigManager - java.lang.reflect.InvocationTargetException
+2021-12-31 16:06:25.065 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nacosConfigManager' defined in class path resource [com/alibaba/cloud/nacos/NacosConfigAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.alibaba.cloud.nacos.NacosConfigManager]: Factory method 'nacosConfigManager' threw exception; nested exception is com.alibaba.cloud.nacos.diagnostics.analyzer.NacosConnectionFailureException: java.lang.reflect.InvocationTargetException
+2021-12-31 16:06:35.148 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-31 16:06:35.152 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Starting GatewayApplication using Java 16.0.1 on DESKTOP-5EP6SGE with PID 5004 (E:\3-7&3-8\3-7&3-8\privilege\gateway\target\classes started by DELL in E:\3-7&3-8\3-7&3-8\privilege)
+2021-12-31 16:06:35.153 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - No active profile set, falling back to default profiles: default
+2021-12-31 16:06:36.194 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-31 16:06:36.197 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-31 16:06:36.227 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-12-31 16:06:36.444 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a3309627-7307-3341-a3fe-067604e1f302
+2021-12-31 16:06:36.582 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:06:36.584 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:06:36.589 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:06:38.688 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2021-12-31 16:06:38.688 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2021-12-31 16:06:38.688 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2021-12-31 16:06:38.688 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2021-12-31 16:06:38.689 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-12-31 16:06:40.033 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-31 16:06:40.390 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8099
+2021-12-31 16:06:41.760 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP privilege-gateway 192.168.234.1:8099 register finished
+2021-12-31 16:06:41.858 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Started GatewayApplication in 7.819 seconds (JVM running for 9.824)
+2021-12-31 16:15:33.994 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2021-12-31 16:15:33.994 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2021-12-31 16:15:33.994 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2021-12-31 16:15:33.995 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2021-12-31 16:15:34.053 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 16:15:34.053 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 16:15:34.168 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 16:15:34.168 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 16:15:34.169 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-12-31 16:15:34.173 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-12-31 16:15:43.486 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2021-12-31 16:16:03.798 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-31 16:16:03.829 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Starting GatewayApplication using Java 16.0.1 on DESKTOP-5EP6SGE with PID 1496 (E:\3-7&3-8\3-7&3-8\privilege\gateway\target\classes started by DELL in E:\3-7&3-8\3-7&3-8\privilege)
+2021-12-31 16:16:03.831 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - No active profile set, falling back to default profiles: default
+2021-12-31 16:16:05.552 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-31 16:16:05.557 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-31 16:16:05.614 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2021-12-31 16:16:06.183 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a3309627-7307-3341-a3fe-067604e1f302
+2021-12-31 16:16:06.660 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:16:06.663 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:16:06.672 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 16:16:10.192 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2021-12-31 16:16:10.192 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2021-12-31 16:16:10.192 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2021-12-31 16:16:10.192 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2021-12-31 16:16:10.192 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2021-12-31 16:16:10.193 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-12-31 16:16:13.165 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-31 16:16:14.306 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8099
+2021-12-31 16:16:17.778 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP privilege-gateway 192.168.234.1:8099 register finished
+2021-12-31 16:16:17.924 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Started GatewayApplication in 16.261 seconds (JVM running for 22.332)
+2021-12-31 16:17:22.930 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:23.968 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:25.014 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:26.054 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:27.104 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:28.142 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:29.184 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:30.225 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:31.265 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:32.305 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:33.346 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:34.386 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:35.432 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:36.475 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:37.553 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:45.460 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:46.498 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:47.541 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:48.579 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:49.628 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:50.666 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:51.705 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:52.754 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:53.791 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:54.829 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:55.870 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:56.909 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:58.042 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:17:59.081 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:00.185 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:10.840 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:11.882 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:12.930 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:13.969 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:15.008 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:16.047 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:17.100 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:18.140 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:19.179 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:20.217 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:21.255 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:22.294 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:23.332 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:24.371 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:25.500 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:42.640 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:43.678 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:44.719 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:45.756 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:46.798 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:47.836 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:48.883 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:49.921 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:50.960 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:51.999 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:53.040 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:54.076 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:55.114 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:56.154 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:18:57.238 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 16:19:20.151 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2021-12-31 16:19:20.151 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2021-12-31 16:19:20.152 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2021-12-31 16:19:20.152 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2021-12-31 16:19:20.247 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 16:19:20.248 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 16:19:20.321 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 16:19:20.322 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 16:19:20.322 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-12-31 16:19:20.322 [SpringContextShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='privilege-gateway', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.234.1', networkInterface='', port=8099, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: no further information
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:271)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:252)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:238)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:102)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:146)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:991)
+2021-12-31 16:19:20.322 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-12-31 16:19:29.288 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2021-12-31 18:16:03.884 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-31 18:16:03.884 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Starting GatewayApplication using Java 16.0.1 on DESKTOP-5EP6SGE with PID 12840 (E:\3-7&3-8\3-7&3-8\privilege\gateway\target\classes started by DELL in E:\3-7&3-8\3-7&3-8\privilege)
+2021-12-31 18:16:03.894 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - No active profile set, falling back to default profiles: default
+2021-12-31 18:16:04.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-31 18:16:04.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-31 18:16:04.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-12-31 18:16:05.073 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a3309627-7307-3341-a3fe-067604e1f302
+2021-12-31 18:16:05.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 18:16:05.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 18:16:05.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2021-12-31 18:16:07.115 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-12-31 18:16:08.562 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-31 18:16:09.287 [main] INFO  o.s.boot.web.embedded.netty.NettyWebServer - Netty started on port 8099
+2021-12-31 18:16:10.677 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP privilege-gateway 192.168.234.1:8099 register finished
+2021-12-31 18:16:10.771 [main] INFO  c.e.x.privilegegateway.gateway.GatewayApplication - Started GatewayApplication in 8.176 seconds (JVM running for 10.821)
+2021-12-31 18:18:33.997 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:34.213 [reactor-http-nio-7] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:35.029 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:36.063 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:37.102 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:38.150 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:39.182 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:40.216 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:41.247 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:42.284 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:43.316 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:43.827 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:44.347 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:44.846 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:45.383 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:45.893 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:46.413 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:46.924 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:47.439 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:47.953 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:48.597 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:48.984 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:49.628 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:50.016 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:50.660 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:51.047 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:51.691 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:52.077 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:52.722 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:53.107 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:53.754 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:53.962 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:54.125 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:54.800 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:55.002 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:55.169 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:55.832 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:56.033 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:56.199 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:56.864 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:57.064 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:57.230 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:57.895 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:58.095 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:58.353 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:58.925 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:59.126 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:59.384 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:18:59.956 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:00.158 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:00.414 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:00.988 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:01.188 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:01.438 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:02.018 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:02.219 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:02.482 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:03.082 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:03.249 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:03.513 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:04.279 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:04.544 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:05.309 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:05.578 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:06.341 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:06.608 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:07.381 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:07.652 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:08.499 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:08.684 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:09.529 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:09.715 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:10.560 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:10.748 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:11.577 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:11.770 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:12.622 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:12.844 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:13.042 [reactor-http-nio-8] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:13.653 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:14.684 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:15.718 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:16.761 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:17.793 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:18.816 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:19.862 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:20.892 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:21.933 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:22.986 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:23.193 [reactor-http-nio-1] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:23.290 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:23.426 [reactor-http-nio-5] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:24.331 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:25.362 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:26.399 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:27.429 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:28.459 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:29.488 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:30.507 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:31.551 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:32.581 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:33.612 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:34.637 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:35.676 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:36.706 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:37.823 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:38.868 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:39.907 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:40.938 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:41.962 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:43.009 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:43.432 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:43.566 [reactor-http-nio-8] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:44.039 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:44.462 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:45.068 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:45.492 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:46.100 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:46.532 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:47.146 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:47.563 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:48.177 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:48.595 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:49.207 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:49.626 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:50.357 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:50.730 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:51.392 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:51.763 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:52.461 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:52.793 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:53.826 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:54.857 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:55.887 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:56.918 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:58.036 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:19:59.071 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:00.116 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:01.148 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:02.182 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:03.220 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:04.251 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:05.282 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:06.315 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:07.390 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:08.422 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:09.452 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:10.483 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:11.514 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:12.573 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:43.318 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:43.452 [reactor-http-nio-6] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:44.350 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:45.405 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:46.439 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:47.545 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:48.576 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:49.605 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:50.635 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:51.666 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:52.697 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:53.469 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:53.727 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:54.515 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:54.746 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:55.557 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:55.792 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:56.589 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:56.821 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:57.619 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:57.940 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:58.649 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:58.969 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:59.680 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:20:59.798 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:00.002 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:00.711 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:00.830 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:01.037 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:01.744 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:01.862 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:02.070 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:02.775 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:02.904 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:03.104 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:03.805 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:03.935 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:04.137 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:04.837 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:04.968 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:05.167 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:05.869 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:06.001 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:06.198 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:06.900 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:07.035 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:07.230 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:08.024 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:08.070 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:08.247 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:09.065 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:09.113 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:09.291 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:10.099 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:10.144 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:10.324 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:11.130 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:11.177 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:11.355 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:12.162 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:12.209 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:12.417 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:13.202 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:13.237 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:14.241 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:14.369 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:15.271 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:15.401 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:16.303 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:16.433 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:17.334 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:17.479 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:18.355 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:18.513 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:19.398 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:19.544 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:20.430 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:20.573 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:21.452 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:21.593 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:22.523 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:22.637 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:22.720 [reactor-http-nio-2] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:23.670 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:24.701 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:25.733 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:26.765 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:27.796 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:28.864 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:28.876 [reactor-http-nio-3] WARN  reactor.netty.http.client.HttpClientConnect - [259fe27e-1, L:/192.168.234.1:61158 - R:/192.168.234.1:8092] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-12-31 18:21:28.893 [reactor-http-nio-3] ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler - [ec713c35-2]  500 Server Error for HTTP POST "/customer/addresses"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/customer/addresses" [ExceptionHandlingWebHandler]
+Stack trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+2021-12-31 18:21:29.072 [reactor-http-nio-3] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:53.694 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:53.841 [reactor-http-nio-8] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:54.725 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:55.756 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:56.790 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:57.821 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:58.852 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:21:59.884 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:00.902 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:01.961 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:02.992 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:04.022 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:05.054 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:06.085 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:07.131 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:08.250 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:09.287 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:10.335 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:11.365 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:12.397 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:13.426 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:14.458 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:15.506 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:16.536 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:17.566 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:18.597 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:19.627 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:20.658 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:21.687 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:22.747 [reactor-http-nio-5] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:36.620 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:36.769 [reactor-http-nio-2] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:37.652 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:38.681 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:39.711 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:40.741 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:41.770 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:42.801 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:43.833 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:44.864 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:45.894 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:46.908 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:46.926 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:47.938 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:47.958 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:48.968 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:48.990 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:49.999 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:50.021 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:51.032 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:51.140 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:52.061 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:52.170 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:53.092 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:53.200 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:54.122 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:54.231 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:55.155 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:55.261 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:56.185 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:56.292 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:57.215 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:57.322 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:58.246 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:58.352 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:59.276 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:59.382 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:22:59.484 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:00.306 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:00.411 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:00.513 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:01.418 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:01.433 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:01.542 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:02.453 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:02.477 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:02.632 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:03.484 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:03.508 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:03.662 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:04.515 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:04.539 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:04.691 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:05.545 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:05.597 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:05.721 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:06.575 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:06.753 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:07.607 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:07.783 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:08.636 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:08.813 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:09.668 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:09.845 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:10.699 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:10.875 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:11.730 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:11.908 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:12.761 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:12.939 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:13.792 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:14.000 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:14.823 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:15.884 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:16.712 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:16.757 [reactor-http-nio-7] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:17.743 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:18.775 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:19.805 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:20.825 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:21.871 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:22.901 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:23.933 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:24.964 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:25.996 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:27.027 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:28.058 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:29.090 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:30.108 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:23:31.187 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:24:06.331 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:24:06.331 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 18:24:06.331 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 18:24:06.366 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExODI0MDM4V0ZBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NDk4NDMsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ2MjQzfQ.j34DeWCDQ10WqULbqdJbswPW9WQmArH8jaDnYF5Z5nk, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 18:24:06.366 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:24:06.397 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:24:09.186 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:24:09.186 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 18:24:09.186 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 18:24:09.222 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExODI0MDY3TEZBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NDk4NDYsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ2MjQ2fQ.Ri8_fbP0RQdlaYkMwYPGnxetN1C7im7JM8JoSKwh32s, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 18:24:09.222 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:24:09.251 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:24:11.953 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:24:11.953 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 18:24:11.953 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 18:24:11.984 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExODI0MDk1QzZBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NDk4NDksInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ2MjQ5fQ.x73MhyTc51AABMX1-xeQaUI3ljTF2KXKqCu82VukpAo, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 18:24:11.984 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:24:12.015 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:46.690 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:46.812 [reactor-http-nio-8] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:47.707 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:48.753 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:49.784 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:50.826 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:51.857 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:52.887 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:53.918 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:54.964 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:56.069 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:57.101 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:58.144 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:32:59.176 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:00.230 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:01.365 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:02.394 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:03.425 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:04.456 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:05.486 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:06.517 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:07.569 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:08.599 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:09.630 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:10.661 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:11.691 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:12.721 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:13.752 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:14.783 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:15.841 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:33:41.858 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:33:41.859 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 18:33:41.859 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 18:33:41.889 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExODMzMzkzSUhBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTA0MTksInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ2ODE5fQ.I6ysQhgKCdGKj48FcV64t5z6MeZ_kJy_q80F9mvn_OE, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 18:33:41.889 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:33:41.919 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:04.359 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:05.390 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:06.420 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:07.450 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:08.495 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:09.527 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:10.560 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:11.595 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:12.624 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:13.654 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:14.686 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:15.721 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:16.751 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:17.798 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:34:18.859 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:13.306 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:14.345 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:15.375 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:16.407 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:17.439 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:18.469 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:19.501 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:20.531 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:21.574 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:22.604 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:23.635 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:24.668 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:25.699 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:26.809 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:35:27.868 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:41:59.485 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:00.516 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:01.545 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:02.201 [reactor-http-nio-5] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:02.582 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:03.612 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:04.643 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:05.673 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:06.711 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:07.741 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:08.772 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:09.803 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:10.833 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:11.865 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:12.918 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:14.053 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:15.114 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:16.145 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:17.176 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:18.207 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:19.240 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:20.272 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:21.301 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:22.334 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:23.353 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:24.396 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:25.439 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:26.471 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:27.501 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:42:28.560 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:49:43.476 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:49:43.476 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 18:49:43.477 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 18:49:43.510 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExODQ5NDA5MURBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTEzODAsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ3NzgwfQ.Ic1SPLzLEP59jksKzC5ASepeL-zZC2JYCKssr6MpS7Y, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 18:49:43.510 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:49:43.541 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:49:43.553 [boundedElastic-4] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 18:50:00.507 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:50:00.507 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 18:50:00.507 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 18:50:00.536 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExODQ5NTc3VU1BIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTEzOTcsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ3Nzk3fQ.bEfp4DbGT1vaP6_eTOqx2czqZOqlocSMJRfISbBZ8LE, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 18:50:00.536 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 18:50:00.566 [reactor-http-nio-4] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 18:50:00.567 [boundedElastic-4] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 19:04:47.901 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:48.931 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:49.964 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:50.994 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:52.025 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:53.056 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:54.085 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:55.117 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:56.148 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:57.178 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:58.239 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:04:59.270 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:05:00.301 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:05:01.334 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:05:02.463 [reactor-http-nio-7] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:05:16.889 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 19:05:16.890 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 19:05:16.890 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 19:05:16.919 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExOTA1MTQzQjlBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTIzMTQsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ4NzE0fQ.8n6GeeBHuxeAWt6sNRfhYYwJte_zOTdfLiSoojAhc3k, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 19:05:16.919 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 19:05:16.950 [reactor-http-nio-1] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:06:02.509 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 19:06:02.509 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 19:06:02.509 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 19:06:02.539 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzExOTA1NTk5ME9BIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTIzNTksInVzZXJJZCI6MSwiaWF0IjoxNjQwOTQ4NzU5fQ.wVvUJIQVOB-kWuot42y-EnWwBKvTtistSTvXGAfB1DQ, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 19:06:02.540 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 19:06:02.569 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 19:35:25.680 [boundedElastic-12] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 19:36:05.715 [boundedElastic-12] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 19:54:54.078 [boundedElastic-15] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 20:01:00.809 [boundedElastic-16] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 20:01:25.702 [boundedElastic-16] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 20:02:01.742 [boundedElastic-16] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: customer-service
+2021-12-31 20:19:07.757 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:08.788 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:09.819 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:10.730 [reactor-http-nio-5] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:10.863 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:11.894 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:12.937 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:13.968 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:14.997 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:16.016 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:17.060 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:18.035 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:18.092 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:19.066 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:19.122 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:20.095 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:20.152 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:21.140 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:21.187 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:22.168 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:22.314 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:23.211 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:23.359 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:24.242 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:24.391 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:25.272 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:25.422 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:26.299 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:26.451 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:27.349 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:27.481 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:28.392 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:28.518 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:29.424 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:29.552 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:30.455 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:30.581 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:31.484 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:31.613 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:32.602 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:32.642 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:33.631 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:33.673 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:34.662 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:34.704 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:35.691 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:35.734 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:36.726 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:36.793 [reactor-http-nio-3] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:37.756 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:38.787 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:39.818 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:40.847 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:41.873 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:42.920 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:43.252 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:43.952 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:44.287 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:44.982 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:45.318 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:46.016 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:46.348 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:47.075 [reactor-http-nio-6] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:47.264 [reactor-http-nio-6] ERROR c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:47.378 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:48.408 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:49.440 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:50.470 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:51.503 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:52.535 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:53.570 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:54.599 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:55.631 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:56.663 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:19:57.724 [reactor-http-nio-8] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:20:27.917 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 20:20:27.917 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 20:20:27.917 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 20:20:27.947 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzEyMDIwMjU3VlFBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTY4MjUsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTUzMjI1fQ.NbFB51KTVXnUt9nfXPDWPwRCXBfbtcOcRDspYPyRdbY, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 20:20:27.948 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 20:20:27.975 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:20:30.443 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 20:20:30.443 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 20:20:30.443 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 20:20:30.473 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzEyMDIwMjgyNkVBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTY4MjgsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTUzMjI4fQ.pWYDhFUbp2TjtJ-GKokpD2k44a3Ekr-qIDj7DDqSV_Q, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 20:20:30.473 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 20:20:30.502 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:20:33.487 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 20:20:33.487 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - /customer/shops/0/customers
+2021-12-31 20:20:33.487 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - user: 91
+2021-12-31 20:20:33.524 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter -  url: [57, 157, 71, 81, 42, 31, 126, 104, 195, 18, 69, 4, 150, 54, 190, 76, 122, 124, 37, 103, 55, 200, 97, 102, 77, 140, 88, 178, 85, 152, 119, 61, 139, 134, 201, 43, 158, 92, 155, 143, 183, 154, 123, 59, 63, 0, 136, 28, 52, 131, 99, 142, 39, 180, 36, 116, 185, 145, 72, 161, 151, 44, 89, 111, 33, 95, 193, 6, 5, 118, 109, 93, 110, 50, 87, 20, 194, 187, 48, 3, 199, 101, 84, 130, 186, 182, 147, 51, 132, 133, 17, 12, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoyLCJ0b2tlbklkIjoiMjAyMTEyMzEyMDIwMzA3OE5BIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2NDA5NTY4MzAsInVzZXJJZCI6MSwiaWF0IjoxNjQwOTUzMjMwfQ.9y9dgfv-NztaNePyjOHkZ7UFu1L9rGErFRO-Lq_Qpk8, 22, 46, 32, 125, 83, 149, 64, 100, 29, 165, 120, 138, 141, 53, 202, 184, 21, 13, 164, 148, 73, 82, 56, 117, 40, 8, 19, 98, 162, 112, 107, 45, 34, 94, 153, 2, 135, 91, 9, 96, 58, 41, 188, 38, 74, 80, 11, 191, 181, 121, 127, 196, 179, 156, 30, 10, 198, 144, 137, 35, 7, 192, 128, 163, 197, 129, 106, 75, 60, 105, 189, 14, 146, 108]
+2021-12-31 20:20:33.524 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - //////////////////////////////
+2021-12-31 20:20:33.581 [reactor-http-nio-2] INFO  c.e.x.p.gateway.localfilter.AuthFilter - filter: $s
+2021-12-31 20:26:15.944 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2021-12-31 20:26:15.944 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2021-12-31 20:26:15.944 [Thread-22] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2021-12-31 20:26:15.962 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2021-12-31 20:26:16.189 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 20:26:16.189 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 20:26:16.328 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:9876] result: true
+2021-12-31 20:26:16.368 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[124.71.31.61:10911] result: true
+2021-12-31 20:26:16.409 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-12-31 20:26:16.429 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-12-31 20:26:23.421 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null

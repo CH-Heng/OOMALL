@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/OOMALL/activity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/activity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/aftersale/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/aftersale/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/alipay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/alipay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/comment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/comment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/coupon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/customer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/freight/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/freight/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/goods/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/liquidation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/liquidation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/payment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/payment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/share/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/share/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/shop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/shop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/wechatpay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OOMALL/wechatpay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public-test/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

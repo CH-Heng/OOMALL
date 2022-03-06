@@ -1,0 +1,65 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8083
+  tomcat:
+    threads:
+      max: 500
+
+spring:
+  application:
+    name: comment-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.3.152:8848
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.3.33:3306/oomall?serverTimezone=GMT%2B8&useSSL=false
+    username: dbuser
+    password: 12345678
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 3
+      min-idle: 3
+      max-active: 10
+      max-wait: 60000
+      stat-view-servlet:
+        login-username: admin
+        login-password: 123456
+        enabled: true
+        url-pattern: /druid/*
+
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 100
+      validation-query: select 1
+
+  redis:
+    database: 0
+    host: 172.16.0.206
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 100
+        min-idle: 0
+        max-wait: -1
+    timeout: 5000
+
+
+mybatis:
+  type-aliases-package: cn.edu.xmu.oomall.comment.model.po
+  mapper-locations: classpath*:cn.edu.xmu.oomall.comment.mapper/*.xml
+  configuration:
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql

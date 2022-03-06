@@ -1,0 +1,65 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8094
+  tomcat:
+    threads:
+      max: 500
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: share-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.3.152:8848
+  servlet:
+    multipart:
+      enabled: true
+      max-request-size: 10MB
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://172.16.2.249:3306/oomall?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF8
+    username: dbuser
+    password: 12345678
+    druid:
+      initial-size: 3
+      min-idle: 3
+      max-active: 10
+      max-wait: 60000
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 100
+      validation-query: select 1
+
+  redis:
+    database: 0
+    host: 172.16.0.206
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 100
+        min-idle: 0
+        max-wait: -1
+    timeout: 5000
+
+
+mybatis:
+  type-aliases-package: cn.edu.xmu.oomall.share.model.po
+  mapper-locations: classpath*:cn.edu.xmu.oomall.share.mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql

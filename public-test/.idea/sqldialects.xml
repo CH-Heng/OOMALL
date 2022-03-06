@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/sql/alipay-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/goods-data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/goods-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/oomall_oomall_payment.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/oomall_oomall_payment_pattern.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/oomall_oomall_refund.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/order-data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/order-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/other-data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/other-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/privilege-data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/privilege-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/wechatpay-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/sql/wechatpay-testdata.sql" dialect="MySQL" />
+  </component>
+</project>

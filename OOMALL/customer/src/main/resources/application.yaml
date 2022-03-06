@@ -1,0 +1,103 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8092
+  tomcat:
+    threads:
+      max: 500
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: customer-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  servlet:
+    multipart:
+      enabled: true
+      max-request-size: 10MB
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/other
+    username: root
+    password: 854829543aA
+    druid:
+      initial-size: 3
+      min-idle: 3
+      max-active: 10
+      max-wait: 60000
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 100
+      validation-query: select 1
+
+  redis:
+    database: 0
+    host: 124.71.31.61
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 100
+        min-idle: 0
+        max-wait: -1
+    timeout: 5000
+
+
+mybatis:
+  type-aliases-package: cn.edu.xmu.oomall.customer.model.po
+  mapper-locations: classpath*:cn.edu.xmu.oomall.customer.mapper/*.xml
+  configuration:
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+rocketmq:
+  name-server: 124.71.31.61:9876
+  producer:
+    group: alipay_callback_group
+    max-message-size: 4096
+    send-message-timeout: 3000
+
+customer:
+  initialization: false
+  lockerExpireTime: 30
+  encrypt: false
+  dav:
+    username: ooad_javaee
+    password: 12345678
+    baseUrl: http://172.16.4.1/webdav/test
+  login:
+    multiply: false
+    expire: 3600
+  captcha:
+    expire: 30
+  bloomfilter:
+    new-user-email:
+      error-rate: 0.001
+      capacity: 1000
+    new-user-mobile:
+      error-rate: 0.001
+      capacity: 1000
+    new-user-name:
+      error-rate: 0.001
+      capacity: 1000
+pagehelper:
+  helper-dialect: mysql
+
+
+
+
+
+
+
+
