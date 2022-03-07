@@ -3,28 +3,16 @@ package cn.edu.xmu.oomall.customer.dao;
 import cn.edu.xmu.oomall.core.util.Common;
 import cn.edu.xmu.oomall.core.util.ReturnNo;
 import cn.edu.xmu.oomall.core.util.ReturnObject;
-import cn.edu.xmu.oomall.customer.mapper.AddressPoMapper;
-import cn.edu.xmu.oomall.customer.mapper.CustomerPoMapper;
-import cn.edu.xmu.oomall.customer.mapper.ShoppingCartPoMapper;
 import cn.edu.xmu.oomall.customer.mapper.CouponPoMapper;
-import cn.edu.xmu.oomall.customer.microservice.Vo.SimpleProductVo;
-import cn.edu.xmu.oomall.customer.model.bo.Address;
 import cn.edu.xmu.oomall.customer.model.bo.Coupon;
-import cn.edu.xmu.oomall.customer.model.bo.Customer;
-import cn.edu.xmu.oomall.customer.model.bo.ShoppingCart;
 import cn.edu.xmu.oomall.customer.model.po.*;
 import cn.edu.xmu.oomall.customer.model.vo.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import net.bytebuddy.asm.Advice;
-import org.apache.tomcat.jni.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties;
-import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
 import static cn.edu.xmu.privilegegateway.annotation.util.Common.cloneVo;
 
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 import java.util.*;
 
 /**

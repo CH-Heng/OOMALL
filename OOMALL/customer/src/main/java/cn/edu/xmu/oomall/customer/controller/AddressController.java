@@ -1,26 +1,16 @@
 package cn.edu.xmu.oomall.customer.controller;
 
 import cn.edu.xmu.oomall.core.util.Common;
-import cn.edu.xmu.oomall.core.util.ReturnNo;
-import cn.edu.xmu.oomall.core.util.ReturnObject;
-import cn.edu.xmu.oomall.customer.model.bo.Address;
-import cn.edu.xmu.oomall.customer.model.bo.Customer;
 import cn.edu.xmu.oomall.customer.model.vo.*;
 import cn.edu.xmu.oomall.customer.service.AddressService;
-import cn.edu.xmu.oomall.customer.service.CustomerService;
 import cn.edu.xmu.privilegegateway.annotation.aop.Audit;
 import cn.edu.xmu.privilegegateway.annotation.aop.LoginName;
 import cn.edu.xmu.privilegegateway.annotation.aop.LoginUser;
 import io.swagger.annotations.*;
-import lombok.extern.java.Log;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
 
 /**
  *
